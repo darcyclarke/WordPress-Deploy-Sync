@@ -62,7 +62,9 @@ The configuration file holds all the relevant database, user and path informatio
 
 Gulp WordPress Deploy will generate a `./sync` folder in your theme directory. This will store things like a backup copy of your local and remote databases as well as any content from your `wp-contents/plugins` or `wp-contents/uploads` folders. These copies are required when running a `gulp sync` which is perfect for working with a team over Github (as you will need to check in this content to stay consistent).
 
-`gulp deploy`
+```bash
+gulp deploy
+````
 
 ### Syncing
 ======
