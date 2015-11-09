@@ -22,8 +22,7 @@ The configuration file holds all the relevant database, user and path informatio
 ```json
 {
   "local": {
-  	// note: don't add a trailing slash to urls
-    "url": "http://localhost:8888",
+  	"url": "http://localhost:8888",
     "db_name": "local_db_name",
     "db_user": "local_db_username",
     "db_password": "local_db_password",
@@ -32,7 +31,6 @@ The configuration file holds all the relevant database, user and path informatio
     "dump": "/applications/MAMP/library/bin/mysqldump"
   },
   "remote": {
-  	// note: don't add a trailing slash to urls
     "url": "http://domain.com",
     "db_name": "remote_db_name",
     "db_user": "remote_db_username",
@@ -49,6 +47,8 @@ The configuration file holds all the relevant database, user and path informatio
   }
 }
 ````
+
+**Note:** Don't add trailing slashes to `local.url` or `remote.url` values.
 
 **Note:** You shouldn't have to update values like `local.port` or `local.dump` unless you've changed where [MAMP]() has been installed or is running the MySQL server.
 
