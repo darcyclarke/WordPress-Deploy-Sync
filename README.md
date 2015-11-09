@@ -33,19 +33,18 @@ The configuration file holds all the relevant database, user and path informatio
     "dump": "/applications/MAMP/library/bin/mysqldump"
   },
   "remote": {
+    "theme": "your_theme_directory",
     "url": "http://domain.com",
     "db_name": "remote_db_name",
     "db_user": "remote_db_username",
     "db_password": "remote_db_password",
     "db_host": "localhost",
     "port": 3306,
-    "ssh": {
-      "theme_name": "your_theme_directory"
-      "hostname": "ftp.domain.com",
+    "ftp": {
+      "host": "ftp.domain.com",
       "username": "ftp_username",
       "password": "ftp_password",
-      "destination": "./public_html/wordpress/",
-      "port": 21
+      "destination": "./public_html/wordpress/"
     }
   }
 }
