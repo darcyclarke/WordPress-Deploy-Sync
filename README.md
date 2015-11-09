@@ -62,7 +62,7 @@ Gulp WordPress Deploy will generate a `./sync` folder in your theme directory. T
 
 ```bash
 gulp deploy
-````r
+````
 
 ### Syncing
 
