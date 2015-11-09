@@ -1,0 +1,26 @@
+{
+  "local": {
+    "url": "http://localhost:8888",
+    "db_name": "themify_basic",
+    "db_user": "root",
+    "db_password": "root",
+    "db_host": "localhost",
+    "port": 8889,
+    "dump": "/applications/MAMP/library/bin/mysqldump"
+  },
+  "remote": {
+    "url": "http://darcy.codes/wordpress",
+    "db_name": "darcycod_test",
+    "db_user": "darcycod_cosmo",
+    "db_password": "Cosmo!=1234",
+    "db_host": "localhost",
+    "port": 3306,
+    "ssh": {
+      "hostname": "ftp.darcy.codes",
+      "username": "darcycod",
+      "password": "Steady!=78",
+      "destination": "./public_html/wordpress/wp-contents/theme",
+      "port": 21
+    }
+  }
+}
