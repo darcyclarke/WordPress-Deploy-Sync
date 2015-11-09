@@ -39,7 +39,7 @@ The configuration file holds all the relevant database, user and path informatio
     "port": 3306,
     "ssh": {
       "hostname": "ftp.domain.com",
-      "username": "ftp_username,
+      "username": "ftp_username",
       "password": "ftp_password",
       "destination": "./public_html/",
       "port": 21
