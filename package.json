@@ -1,10 +1,10 @@
 {
-  "name": "wordpress-deploy",
-  "description": "",
+  "name": "wordpress-deploy-sync",
+  "description": "A Deployment and Sync Tool for WordPress",
   "version": "0.0.1",
   "homepage": "",
   "author": "Darcy Clarke",
-  "main": "gulpfile.js",
+  "main": "main.js",
   "engines": {
     "node": "*"
   },
@@ -12,8 +12,6 @@
   "dependencies": {
     "colors": "^1.1.2",
     "exec": "^0.2.1",
-    "gulp": "^3.9.0",
-    "gulp-load-plugins": "^1.1.0",
     "mkpath": "^1.0.0",
     "mysql": "^2.9.0",
     "replace": "^0.3.0",

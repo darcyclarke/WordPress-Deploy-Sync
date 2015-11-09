@@ -1,2 +1,7 @@
 node_modules/
 .DS_Store
+config.json
+index.php
+style.css
+sync/
+screenshot.png
