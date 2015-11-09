@@ -4,17 +4,21 @@
   "version": "0.0.1",
   "homepage": "",
   "author": "Darcy Clarke",
-  "main": "main.js",
+  "main": "index.js",
   "engines": {
     "node": "*"
   },
   "scripts": {},
   "dependencies": {
     "colors": "^1.1.2",
-    "exec": "^0.2.1",
+    "ftp-deploy": "^1.1.0",
+    "ftpsync": "^0.1.7",
+    "lodash": "^3.10.1",
     "mkpath": "^1.0.0",
     "mysql": "^2.9.0",
     "replace": "^0.3.0",
+    "rimraf": "^2.4.3",
+    "rsync": "^0.4.0",
     "run-sequence": "^1.1.4",
     "wrench": "^1.5.8"
   },
