@@ -18,7 +18,9 @@
     "run-sequence": "^1.1.4",
     "wrench": "^1.5.8"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
   "keywords": [],
   "readmeFilename": "README.md",
   "license": "BSD"
