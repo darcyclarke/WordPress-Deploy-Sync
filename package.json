@@ -8,7 +8,10 @@
   "engines": {
     "node": "*"
   },
-  "scripts": {},
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
   "dependencies": {
     "colors": "^1.1.2",
     "ftp-deploy": "^1.1.0",
@@ -20,12 +23,14 @@
     "rimraf": "^2.4.3",
     "rsync": "^0.4.0",
     "run-sequence": "^1.1.4",
-    "wrench": "^1.5.8"
+    "wrench": "^1.5.8",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "gulp": "^3.9.0"
   },
   "keywords": [],
   "readmeFilename": "README.md",
-  "license": "BSD"
+  "license": "BSD",
+  "snyk": true
 }
